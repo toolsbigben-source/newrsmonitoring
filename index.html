@@ -298,12 +298,12 @@ textarea{resize:vertical;min-height:60px;}
     <div class="login-err" id="login-error">Incorrect username or password.</div>
     <div class="lf">
       <label>Username</label>
-      <input type="text" id="login-user" placeholder="Enter username" autocomplete="username" id="login-pass" onkeydown="if(event.key==='Enter'){if(typeof doLogin==='function')doLogin();}">
+      <input type="text" id="login-user" placeholder="Enter username" autocomplete="username" onkeydown="if(event.key==='Enter'){if(typeof doLogin==='function')doLogin();}">
     </div>
     <div class="lf">
       <label>Password</label>
       <div class="pw-wrap">
-        <input type="password" id="login-pass" placeholder="Enter password" autocomplete="current-password" id="login-pass" onkeydown="if(event.key==='Enter'){if(typeof doLogin==='function')doLogin();}">
+        <input type="password" id="login-pass" placeholder="Enter password" autocomplete="current-password"  onkeydown="if(event.key==='Enter'){if(typeof doLogin==='function')doLogin();}">
         <button class="pw-eye" onclick="togglePw()"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zm0 12.5a5 5 0 110-10 5 5 0 010 10zm0-8a3 3 0 100 6 3 3 0 000-6z"/></svg></button>
       </div>
     </div>
